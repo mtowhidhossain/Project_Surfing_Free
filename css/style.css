@@ -1,0 +1,664 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+
+@font-face{
+  font-family: 'leaguespartan-bold';
+  src: local('./leaguespartan-bold.woff'), url('./leaguespartan-bold.woff'), format('woff');
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* ____________________________________HEADER SECTION________________________________ */
+
+#navbarNavAltMarkup a{
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #535353;
+  font-weight: 700;
+}
+
+header .navbar-brand{
+  width: 56px !important;  
+}
+
+
+/* ____________________________________BANNER SECTION________________________________ */
+
+.banner{
+  margin: 15px 0 100px 0;
+  min-height: 580px;
+}
+
+.bannerImage{
+  position: absolute;
+  z-index: -1;
+  left: 300px;
+}
+
+
+.bannerText{
+  position: relative;
+  top: 140px;
+  width: 450px;
+  z-index: 2;
+}
+
+.controlButton{
+  position: relative;
+  top: 490px;
+  width: 100px;
+  z-index: 2;
+}
+
+.controlButton button{
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+  margin-right: 10px;
+  color: rgb(192, 191, 191);
+}
+
+.controlButton h6{
+  margin-right: 10px;
+  margin-top: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bannerSide{
+  position: relative;
+  z-index: 2;
+  top: -70px;
+  left: 980px;
+  height: 20px;
+  max-width: 205px;
+}
+
+.v1Text{
+  transform: rotate(270deg);
+  transform-origin: right;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #DEDEDE;
+}
+
+.bannerSocial{
+  position: relative;
+  z-index: 2;
+  top: 195px;
+  left: 1170px;
+  height: 125px !important;
+  max-width: 28px !important;
+}
+
+
+.bannerSocial a i{
+  color: #EBEBEB;
+  margin-bottom: 27px;
+}
+
+.bannerSocial a i:hover{
+  color: rgb(163, 162, 162);
+}
+
+
+.your{
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #72b2f1;
+  font-weight: 700;
+  
+}
+
+.banner h1{
+  font-size: 58px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.para{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  color: rgb(128, 126, 126);
+}
+
+
+.bannerImage img{
+  width: 930px;
+  box-shadow: -10px 10px 10px rgba(26, 25, 25, 0.1);
+}
+
+
+
+/* _____________________________________QUOTE SECTION________________________________ */
+
+.quote{
+  margin: 100px 0 10px 0;
+}
+
+.quote h4{
+  font-family: 'Playfair Display', serif;
+  color: #535353;
+  font-size: 23px;
+  line-height: 35px;
+}
+
+.quote p{
+  font-family: 'Poppins', sans-serif;
+  color: #535353;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+
+.quote img{
+  margin-top: 30px;
+}
+
+
+
+
+/* _____________________________________MEDIA SECTION________________________________ */
+
+.media{
+  margin: 50px 0 50px 0;
+}
+
+.media1{
+  position: absolute;
+  z-index: 1;
+}
+
+.media1 img{
+  width: 570px;
+}
+
+.media1 p{
+  width: 350px;
+  margin: 40px 0 0 100px;
+  color: #B0B0B0;
+}
+
+.media1 button{
+  margin: 40px 0 0 100px;
+  border-bottom: 2px solid #8CC1f3;
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 0;
+}
+
+.media2{
+  position: relative;
+  top: 40px;
+  left: 480px;
+  z-index: 2; 
+}
+
+.media2 img{
+  width: 640px;
+  max-height: 530px;
+}
+
+.videoButton{
+  position: relative;
+  top: 285px;
+  left: 150px;
+  z-index: 3;
+  height: 50px;
+  width: 50px;
+  background-color: #5DA8EF;
+  border-radius: 50%;
+  
+}
+
+
+/* ______________________________Background Image 1______________________________ */
+
+
+.bgImage1 {
+  position: absolute;
+  z-index: -2;
+  height: 100%;
+  margin-top: -200px;
+}
+.bgImage1 img{
+  width: 1348px;
+}
+
+
+/* _____________________________________SHOP SECTION________________________________ */
+
+
+.shop{
+  height: 550px;
+  margin: 150px 0 70px 0;
+}
+
+.shopHeading{
+  height: 60px;
+}
+
+.shopHeading p{
+  width: 100%;
+  color: #5DA8EF;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.shopHeading h3{
+  color: #333333;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'leaguespartan-bold';
+}
+
+.shopBody{
+  height: 390px;
+  margin: 20px 0;
+}
+
+
+.shopAngle{
+  margin-top: 130px;
+}
+
+.shopAngle button{
+  border: 0;  
+  background: transparent;
+}
+
+.shopAngle button i{
+  font-size: 30px;
+  color: #c4c1c1;
+}
+
+.product img{
+  width: 220px;
+}
+
+.product {
+  position: absolute;
+  z-index: 1;
+}
+
+.pDetails{
+  position: relative;
+  z-index: 2;
+  top: 40px;
+  left: 160px;
+}
+
+.pPrice{
+  position: relative;
+  top: 15px !important;
+  left: 50px !important;
+}
+
+.pName p{
+  color: #A1A1A1;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 0;
+}
+
+.pName h4{
+  color: #333333;
+  font-family: 'leaguespartan-bold';
+}
+
+.pPrice h6{
+  color: #D16DAE;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pPrice button{
+  color: #333333;
+  text-transform: uppercase;
+  background: transparent;
+  font-weight: 900;
+  font-size: 9px;
+  border: 0;
+}
+
+.shopFooter button{
+  background: transparent;
+  border-bottom: 1px solid #8DC2F4;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 5px 0;
+  color: #333333;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+
+/* _____________________________________ARTICLE 1 SECTION________________________________ */
+
+
+.article1{
+  margin: 100px 0 80px 0;
+}
+
+.article1Text{
+  margin-left: 15px;
+}
+
+.number01{
+  background-image: url('../images/01.png');
+  background-repeat: no-repeat;
+  height: 115px;
+  width: 240px;
+  margin: 0 !important;
+}
+
+.number01 h3{
+  font-family: 'leaguespartan-bold';
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: -8px !important;
+}
+
+hr{
+  border: 1px solid #5DA8EF !important;
+  width: 20px;
+}
+
+.article1P{
+  font-size: 13px;
+  margin: 40px 0 60px 0;
+  color: #A3A3A3;
+  width: 280px;
+}
+
+.v2Textarea{
+  position: relative;
+  z-index: 2;
+  left: 1070px;
+  height: 18px;
+  max-width: 140px;
+}
+
+.v2Text{
+  display: inline-block;
+  transform: rotate(270deg);
+  transform-origin: right;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #DEDEDE;
+}
+
+.article1 button{
+  padding: 0 !important;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  border-bottom: #8DC2F4 2px solid;
+  padding-bottom: 5px !important;
+  border-radius: 0;
+}
+
+.article1 img{
+  width: 710px;
+  margin-left: 10px;
+}
+
+
+
+
+/* _____________________________________Article 2 SECTION________________________________ */
+
+
+
+.v3Text{
+  display: inline-block;
+  transform: rotate(270deg);
+  transform-origin: right;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #DEDEDE;
+}
+
+.article2Text{
+  min-width: 285px;
+}
+.number02{
+  background-image: url('../images/02.png');
+  background-repeat: no-repeat;
+  height: 115px;
+  width: 240px;
+  margin: 0 !important;
+}
+
+.article2 h3{
+  font-family: 'leaguespartan-bold';
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: -8px !important;
+}
+
+.article2P{
+  font-size: 13px;
+  margin: 40px 0 60px 0;
+  color: #A3A3A3;
+}
+
+.article2 button{
+  padding: 0 !important;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  border-bottom: #8DC2F4 2px solid;
+  padding-bottom: 5px !important;
+  border-radius: 0;
+}
+
+
+
+/* ______________________________Background Image 2______________________________ */
+
+
+.bgImage2 {
+  position: absolute;
+  z-index: -2;
+  height: 100%;
+  margin-top: -185px;
+}
+.bgImage2 img{
+  width: 1348px;
+}
+
+
+
+
+/* _____________________________________SUBSCRIBE SECTION________________________________ */
+
+
+.subscribe img{
+  margin: 30px 0;
+}
+
+.subscribe h3{
+  font-family: 'leaguespartan-bold';
+  font-size: 35px;
+  color: black;
+  margin: 25px 0;
+  font-weight: 700;
+}
+
+.subscribe p{
+  font-size: 13px;
+  color: #A0A0A0;
+  margin: 25px 0;
+}
+
+form{
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+form input{
+	border: 0;
+	background-color: transparent;
+	font-size: 14px;
+	padding: 10px 20px;
+  color: #1A5551;
+  vertical-align: middle;
+}
+
+form button{
+	border: 0;
+	background-color: transparent;
+  margin: 0;
+  
+}
+
+form button i{
+  font-size: 30px;
+  padding: 9px 15px;
+  background-color: #5DA8EF;
+  color: #E3F0FC;
+}
+
+
+.subscribe form input::placeholder{
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+
+
+
+/* _____________________________________CONTACT SECTION________________________________ */
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact h6{
+  font-size: 12px;
+  color: #CECECE;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.address h4{
+  font-family: 'leaguespartan-bold';
+  font-weight: 600;
+}
+
+.contact a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5DA8EF;
+  text-decoration: none;
+  padding: 0 0 7px 0;
+  border-bottom: #8DC2F4 1px solid;
+}
+
+.contact a:hover{
+  color: #CECECE;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* _____________________________________FOOTER SECTION________________________________ */
+
+footer nav a{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social a i{
+  color: #EBEBEB;
+}
+
+.social a i:hover{
+  color: rgb(163, 162, 162);
+}
+
+
+
+
+
+
+/* _______________________________________MEDIA QUERIES_________________________________________ */
+
+/* @media screen and (max-width: 1199.98px) {} */
+/* @media (max-width: 1199.98px) {} */
+
+@media (max-width: 1199.98px) {
+  .bannerSide, .bannerSocial, .v2Textarea, .productDiv3{
+    display: none;
+  }
+
+  .bannerImage, .bannerText, .controlButton{
+    display: block;
+    justify-content: center;
+    z-index: unset;
+    columns: 1;    
+    position: unset;
+    top: unset;
+    left: unset;
+    margin-bottom: 30px;
+  }
+  
+}
+
+
+@media (max-width: 991.98px) {
+  .media1, .media2 {
+    display: block;
+    justify-content: center;
+    z-index: unset;
+    columns: 1;    
+    position: unset;
+    top: unset;
+    left: unset;
+    margin-bottom: 30px;
+  }
+
+  .v3Textarea, .productDiv2{
+    display: none;
+  }
+}
+
+
+/* @media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+} */
